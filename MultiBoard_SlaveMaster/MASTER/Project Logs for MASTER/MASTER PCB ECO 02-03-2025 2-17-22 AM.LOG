@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=2 NewDesignator=J1
+Added Pin To Net: NetName=3v3 Pin=U1-9
+Added Room: Name=Micro
