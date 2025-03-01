@@ -1,0 +1,26 @@
+Added Component: Designator=12V-DC(DC005)
+Add component (AddParameter): Name = "PartNumber"; Value = "DC005-5.5MM"; VariantName = "[No Variations]"
+Added Component: Designator=D?(DO-214AC SMA)
+Add component (AddParameter): Name = "PartNumber"; Value = "SS14"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=12V-DC-2
+Added Pin To Net: NetName=GND Pin=12V-DC-2
+Added Pin To Net: NetName=GND Pin=12V-DC-2
+Added Pin To Net: NetName=GND Pin=12V-DC-2
+Added Pin To Net: NetName=GND Pin=12V-DC-2
+Added Pin To Net: NetName=GND Pin=12V-DC-3
+Added Pin To Net: NetName=GND Pin=12V-DC-3
+Added Pin To Net: NetName=GND Pin=12V-DC-3
+Added Pin To Net: NetName=GND Pin=12V-DC-3
+Added Pin To Net: NetName=GND Pin=12V-DC-3
+Added Pin To Net: NetName=+12 Pin=D?-2
+Added Pin To Net: NetName=Net12V-DC_1 Pin=12V-DC-1
+Added Pin To Net: NetName=Net12V-DC_1 Pin=12V-DC-1
+Added Pin To Net: NetName=Net12V-DC_1 Pin=12V-DC-1
+Added Pin To Net: NetName=Net12V-DC_1 Pin=12V-DC-1
+Added Pin To Net: NetName=Net12V-DC_1 Pin=12V-DC-1
+Added Pin To Net: NetName=Net12V-DC_1 Pin=12V-DC-1
+Added Pin To Net: NetName=Net12V-DC_1 Pin=D?-1
+Added Net: Name=Net12V-DC_1
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component 12V-DC Power Jack
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component D? SS14
+Added Room: Name=Micro
