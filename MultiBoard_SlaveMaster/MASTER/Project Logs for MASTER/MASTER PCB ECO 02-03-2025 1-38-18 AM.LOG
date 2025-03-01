@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetMAX485_02 Pin=MAX485-02
+Removed Pin From Net: NetName=NetMAX485_03 Pin=MAX485-03
+Added Pin To Net: NetName=NetMAX485_03 Pin=MAX485-02
+Added Pin To Net: NetName=NetMAX485_02 Pin=MAX485-03
+Change Net Name : Old Net Name=NetMAX485_02 New Net Name=NetMAX485_03
+Change Net Name : Old Net Name=NetMAX485_03 New Net Name=NetMAX485_02
+Added Room: Name=Micro

@@ -1,0 +1,10 @@
+Change Component Designator: OldDesignator=* NewDesignator=7seg
+Change Component Designator: OldDesignator=D? NewDesignator=D1
+Change Component Designator: OldDesignator=J2 NewDesignator=MAX485
+Change Component Designator: OldDesignator=R? NewDesignator=R11
+Change Component Designator: OldDesignator=S1 NewDesignator=Transmitt
+Change Component Designator: OldDesignator=S2 NewDesignator=Receive
+Change Component Designator: OldDesignator=S? NewDesignator=+
+Change Net Name : Old Net Name=NetJ2_02 New Net Name=NetMAX485_02
+Change Net Name : Old Net Name=NetJ2_03 New Net Name=NetMAX485_03
+Added Room: Name=Micro
