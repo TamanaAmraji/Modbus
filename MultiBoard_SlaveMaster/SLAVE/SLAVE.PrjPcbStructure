@@ -1,0 +1,6 @@
+Record=TopLevelDocument|FileName=SLAVE.SchDoc
+Record=SheetSymbol|SourceDocument=SLAVE.SchDoc|Designator=Buzzer|SchDesignator=Buzzer|FileName=Buzzer.SchDoc|SymbolType=Normal|RawFileName=Buzzer.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=SLAVE.SchDoc|Designator=CH340G|SchDesignator=CH340G|FileName=CH340G.SchDoc|SymbolType=Normal|RawFileName=CH340G.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=SLAVE.SchDoc|Designator=MAX485|SchDesignator=MAX485|FileName=MAX485.SchDoc|SymbolType=Normal|RawFileName=MAX485.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=SLAVE.SchDoc|Designator=Micro|SchDesignator=Micro|FileName=Micro.SchDoc|SymbolType=Normal|RawFileName=Micro.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=SLAVE.SchDoc|Designator=Supply 5V to 3V3- Ams1117|SchDesignator=Supply 5V to 3V3- Ams1117|FileName=Supply 5V to 3V3- Ams1117.SchDoc|SymbolType=Normal|RawFileName=Supply 5V to 3V3- Ams1117.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

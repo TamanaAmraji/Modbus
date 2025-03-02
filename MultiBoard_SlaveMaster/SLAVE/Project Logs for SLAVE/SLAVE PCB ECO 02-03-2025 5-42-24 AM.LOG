@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=B Pin=U1-45
+Added Pin To Net: NetName=B Pin=U1-45
+Change Net Name : Old Net Name=A New Net Name=NetMAX485_03
+Change Net Name : Old Net Name=B New Net Name=NetMAX485_02
+Added Pin To Net: NetName=a Pin=7seg-7
+Added Pin To Net: NetName=a Pin=U1-41
+Added Net: Name=a

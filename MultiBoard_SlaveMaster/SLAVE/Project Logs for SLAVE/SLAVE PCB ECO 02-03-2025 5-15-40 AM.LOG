@@ -1,0 +1,115 @@
+Removed Pin From Net: NetName=com Pin=7seg-3
+Removed Pin From Net: NetName=TXD Pin=R2-1
+Removed Pin From Net: NetName=RXD Pin=R3-1
+Removed Pin From Net: NetName=f Pin=U1-42
+Removed Pin From Net: NetName=a Pin=U1-43
+Removed Pin From Net: NetName=b Pin=U1-45
+Added Component: Designator=I2c(HDR_1X4)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "HDRM4"; VariantName = "[No Variations]"
+Added Component: Designator=J2(IDC_2X3)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "IDC_2X3"; VariantName = "[No Variations]"
+Added Component: Designator=keypad(HDR_1X7)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "HDRM7"; VariantName = "[No Variations]"
+Added Component: Designator=LS1(CUI_CEM-1203(42))
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/CEM-1203(42)/CUI+Devices/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CUI_purchase_URL"; Value = "https://www.cuidevices.com/product/audio/buzzers/audio-transducers/cem-1203(42)?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "CUI Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CEM-1203(42)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/CEM-1203(42)/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CEM-1203(42)/CUI+Devices/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Q(SOT23)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "MMBT2222A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-236-3 Taitron"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/MMBT2222A/STMicroelectronics/view-part/1642048/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R8(RES 0805_2012)
+Add component (AddParameter): Name = "VALUE"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R9(RES 0805_2012)
+Add component (AddParameter): Name = "VALUE"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RES 0805_2012)
+Add component (AddParameter): Name = "VALUE"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R20(RES 0805_2012)
+Add component (AddParameter): Name = "VALUE"; Value = "1K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3v3 Pin=I2c-1
+Added Pin To Net: NetName=GND Pin=I2c-4
+Added Pin To Net: NetName=NetC3_1 Pin=J2-1
+Added Pin To Net: NetName=NetC3_1 Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J2-5
+Added Pin To Net: NetName=GND Pin=J2-6
+Added Pin To Net: NetName=3v3 Pin=LS1-P
+Added Pin To Net: NetName=GND Pin=Q-2
+Added Pin To Net: NetName=RXD Pin=R2-1
+Added Pin To Net: NetName=TXD Pin=R3-1
+Added Pin To Net: NetName=com Pin=R8-2
+Added Pin To Net: NetName=3v3 Pin=R9-2
+Added Pin To Net: NetName=3v3 Pin=R10-2
+Change Net Name : Old Net Name=NetMAX485_02 New Net Name=B
+Change Net Name : Old Net Name=NetMAX485_03 New Net Name=A
+Added Pin To Net: NetName=C1 Pin=keypad-5
+Added Net: Name=C1
+Added Pin To Net: NetName=C2 Pin=keypad-6
+Added Net: Name=C2
+Added Pin To Net: NetName=C3 Pin=keypad-7
+Added Net: Name=C3
+Added Pin To Net: NetName=Net7seg_3 Pin=7seg-3
+Added Pin To Net: NetName=Net7seg_3 Pin=R8-1
+Added Net: Name=Net7seg_3
+Added Pin To Net: NetName=NetLS1_N Pin=LS1-N
+Added Pin To Net: NetName=NetLS1_N Pin=Q-3
+Added Net: Name=NetLS1_N
+Added Pin To Net: NetName=NetQ_1 Pin=Q-1
+Added Pin To Net: NetName=NetQ_1 Pin=R20-2
+Added Net: Name=NetQ_1
+Added Pin To Net: NetName=NetR20_1 Pin=R20-1
+Added Pin To Net: NetName=NetR20_1 Pin=U1-18
+Added Net: Name=NetR20_1
+Added Pin To Net: NetName=R1 Pin=keypad-1
+Added Net: Name=R1
+Added Pin To Net: NetName=R2 Pin=keypad-2
+Added Net: Name=R2
+Added Pin To Net: NetName=R3 Pin=keypad-3
+Added Net: Name=R3
+Added Pin To Net: NetName=R4 Pin=keypad-4
+Added Net: Name=R4
+Added Pin To Net: NetName=SCL Pin=I2c-3
+Added Pin To Net: NetName=SCL Pin=R10-1
+Added Pin To Net: NetName=SCL Pin=U1-42
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA Pin=I2c-2
+Added Pin To Net: NetName=SDA Pin=R9-1
+Added Pin To Net: NetName=SDA Pin=U1-43
+Added Net: Name=SDA
+Added Class: Name=Buzzer
+Added Member To Class: ClassName=Micro Member=Component I2c HDR1X4
+Added Member To Class: ClassName=MAX485 Member=Component J2 IDC_2X3
+Added Member To Class: ClassName=Micro Member=Component keypad HDR1X7
+Added Member To Class: ClassName=Micro Member=Component R8 330
+Added Member To Class: ClassName=Micro Member=Component R9 10K
+Added Member To Class: ClassName=Micro Member=Component R10 10K
+Added Room: Name=Buzzer
+Added Room: Name=Micro

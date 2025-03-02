@@ -72,23 +72,6 @@ GenerateClassCluster=0
 DocumentUniqueId=KLRNSAWZ
 
 [Document3]
-DocumentPath=MASTER.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WMYFFZZQ
-
-[Document4]
 DocumentPath=MAX485.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZXQMXLPS
 
-[Document5]
+[Document4]
 DocumentPath=Supply 5V to 3V3- Ams1117.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KHVQSMNC
 
-[Document6]
+[Document5]
 DocumentPath=Supply 12V to 5V-7805 smd.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -138,23 +121,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PJFACGUQ
-
-[Document7]
-DocumentPath=MASTER.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WMMBWSCQ
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for MASTER\Design Rule Check - MASTER.html

@@ -1,0 +1,5 @@
+Remove Pin=I2c-1 From Net=3v3
+Remove Pin=J?-3 From Net=A
+Remove Pin=J?-4 From Net=B
+Add Pin To Net: Pin=U1-42 Old Net=SCL New Net=f
+Add Pin To Net: Pin=U1-43 Old Net=SDA New Net=a
