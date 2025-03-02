@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=DP Pin=U1-21
+Removed Pin From Net: NetName=com Pin=U1-22
+Removed Pin From Net: NetName=c Pin=U1-41
+Removed Pin From Net: NetName=d Pin=U1-42
+Removed Pin From Net: NetName=e Pin=U1-43
+Added Pin To Net: NetName=DP Pin=U1-25
+Added Pin To Net: NetName=c Pin=U1-26
+Added Pin To Net: NetName=com Pin=U1-27
+Added Pin To Net: NetName=d Pin=U1-28
+Added Pin To Net: NetName=e Pin=U1-29
+Added Room: Name=Micro

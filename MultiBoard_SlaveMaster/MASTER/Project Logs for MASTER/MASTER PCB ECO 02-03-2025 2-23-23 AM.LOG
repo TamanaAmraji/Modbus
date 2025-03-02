@@ -1,0 +1,24 @@
+Added Component: Designator=+5V(HDR_1X2)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "HDRM2"; VariantName = "[No Variations]"
+Added Component: Designator=3v3(HDR_1X2)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "HDRM2"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC3_1 Pin=+5V-1
+Added Pin To Net: NetName=GND Pin=+5V-2
+Added Pin To Net: NetName=3v3 Pin=3v3-1
+Added Pin To Net: NetName=GND Pin=3v3-2
+Change Net Name : Old Net Name=NetC3_1 New Net Name=Net+5V_1
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component +5V HDRM2
+Added Member To Class: ClassName=Supply 5V to 3V3- Ams1117 Member=Component 3v3 HDRM2
+Added Room: Name=Micro

@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=LED Pin=R7-1
+Added Pin To Net: NetName=LED Pin=U1-38
+Added Net: Name=LED
+Added Room: Name=Micro

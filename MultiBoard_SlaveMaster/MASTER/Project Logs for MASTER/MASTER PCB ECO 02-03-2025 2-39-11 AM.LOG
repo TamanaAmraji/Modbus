@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=INC Pin=U1-18
+Removed Pin From Net: NetName=NetR8_1 Pin=U1-20
+Removed Pin From Net: NetName=NetR9_1 Pin=U1-26
+Removed Pin From Net: NetName=g Pin=U1-46
+Added Pin To Net: NetName=NetR8_1 Pin=U1-10
+Added Pin To Net: NetName=NetR9_1 Pin=U1-11
+Added Pin To Net: NetName=INC Pin=U1-46
+Change Net Name : Old Net Name=Net+5V_1 New Net Name=NetC3_1
+Change Net Name : Old Net Name=NetR8_1 New Net Name=Transmitt
+Change Net Name : Old Net Name=NetR9_1 New Net Name=Receiver
+Added Member To Class: ClassName=Supply 5V to 3V3- Ams1117 Member=Component 3v3 LED SMD 0805 GREEN
+Added Room: Name=Micro
