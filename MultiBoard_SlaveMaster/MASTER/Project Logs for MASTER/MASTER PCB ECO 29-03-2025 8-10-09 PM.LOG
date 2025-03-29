@@ -1,0 +1,7 @@
+Change Component Comment : Designator=MAX485 Old Comment=1881574 New Comment=phoenix 2.54
+Change Component Description : Designator=C12 Old Description=COMMERCIAL CHIP STD JAPAN BULK - FN TAPE/REEL, 7 INCH PAPER TAPE New Description=COMMERCIAL CHIP STD JAPAN BULK - FN TAPE/REEL, 7 INCH PAPER TAPE-0805
+Change Component Description : Designator=C13 Old Description=COMMERCIAL CHIP STD JAPAN BULK - FN TAPE/REEL, 7 INCH PAPER TAPE New Description=COMMERCIAL CHIP STD JAPAN BULK - FN TAPE/REEL, 7 INCH PAPER TAPE-0805
+Change Component Description : Designator=Transmitt Old Description=Tactile Switch SPST-NO Top Actuated Through Hole New Description=Tactile Switch SPST-NO Top Actuated Through Hole- 4 pin push button
+Added Component: Designator=SW?(SWPBT_SPDT_6X6X5SKHH)
+Add component (AddParameter): Name = "PartNumber"; Value = "PTS645SH50SMTR92 LFS"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Micro Member=Component SW? Tactile 4PIN 6X6mm H5mm (THD)
