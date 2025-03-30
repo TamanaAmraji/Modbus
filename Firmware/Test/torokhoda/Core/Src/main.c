@@ -18,19 +18,12 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "usart.h"
 #include "gpio.h"
-
-#define  A	GPIO_PIN_7
-#define  B	GPIO_PIN_8
-#define  C	GPIO_PIN_13
-#define  E	GPIO_PIN_14
-#define  F	GPIO_PIN_6
-#define  G	GPIO_PIN_5
-
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "M_modbus.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -51,6 +44,8 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+uint32_t previousMillis, currentMillis;
+	int i, data=0;
 void SevenSegNumber(int num){
 	switch (num) 
 	{
@@ -140,6 +135,7 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -148,17 +144,20 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+//			  writeSingleHoldingRegister(9, 0, 0xFAFA); 
+//				HAL_Delay(3000);
 //		  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_15);
 //			HAL_Delay(500);
 			// HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8,GPIO_PIN_SET);
-			for (int i=0; i<10 ; i++)
-		{
-			SevenSegNumber(i);
-			HAL_Delay(1000);
-		}
+//			for (int i=0; i<10 ; i++)
+//		{
+//			SevenSegNumber(i);
+//			HAL_Delay(1000);
+//		}
 		
   }
   /* USER CODE END 3 */
@@ -201,6 +200,26 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_PIN)
+{
+	currentMillis = HAL_GetTick();
+
+	if (GPIO_PIN == GPIO_PIN_9 && (currentMillis - previousMillis > 200))
+	{
+		if ( i < 9)
+			i = i+1;
+		else 
+			i = 0;
+	}	
+	else if (GPIO_PIN == GPIO_PIN_0 && (currentMillis - previousMillis > 200))
+		writeSingleHoldingRegister(9, 0, 2); 
+	else if (GPIO_PIN == GPIO_PIN_1 && (currentMillis - previousMillis > 200))
+		readInputRegisters(4,0, 1);  
+	SevenSegNumber(i);
+	previousMillis = currentMillis;
+	}
+
+
 
 /* USER CODE END 4 */
 

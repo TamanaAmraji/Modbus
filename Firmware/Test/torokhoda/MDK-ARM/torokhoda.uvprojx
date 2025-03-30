@@ -405,6 +405,11 @@
               <FilePath>../Core/Src/gpio.c</FilePath>
             </File>
             <File>
+              <FileName>usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../Core/Src/usart.c</FilePath>
+            </File>
+            <File>
               <FileName>stm32f1xx_it.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32f1xx_it.c</FilePath>
@@ -413,6 +418,16 @@
               <FileName>stm32f1xx_hal_msp.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32f1xx_hal_msp.c</FilePath>
+            </File>
+            <File>
+              <FileName>M_modbus.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>E:\1_Github\Modbus\Firmware\Test\torokhoda\Core\Src\M_modbus.c</FilePath>
+            </File>
+            <File>
+              <FileName>modbus_crc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>E:\1_Github\Modbus\Firmware\Test\torokhoda\Core\Src\modbus_crc.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -433,6 +448,11 @@
               <FileName>stm32f1xx_hal_tim_ex.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f1xx_hal_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c</FilePath>
             </File>
             <File>
               <FileName>stm32f1xx_hal.c</FileName>
