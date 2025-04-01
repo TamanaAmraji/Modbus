@@ -1,0 +1,9 @@
+Removed Member From Class: ClassName=CH340G Member=C3
+Change Component Designator: OldDesignator=1 NewDesignator=RX
+Change Component Designator: OldDesignator=2 NewDesignator=TX
+Change Net Name : Old Net Name=Net1_1 New Net Name=NetR2_2
+Change Net Name : Old Net Name=Net2_1 New Net Name=NetR3_2
+Change Net Name : Old Net Name=Net2_2 New Net Name=NetR13_1
+Added Member To Class: ClassName=CH340G Member=Component C5 100nF
+Added Member To Class: ClassName=CH340G Member=Component R13 1.5k
+Added Room: Name=Micro
