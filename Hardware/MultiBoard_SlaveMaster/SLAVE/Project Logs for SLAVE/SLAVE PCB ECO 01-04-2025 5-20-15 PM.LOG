@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=TX Pin=USART2-2
+Removed Pin From Net: NetName=RX Pin=USART2-3
+Change Component Footprint: Designator=C7 Old Footprint=FP-C0805C-DN-MFG New Footprint=FP-C0805C-DN-MFG
+Added Component: Designator=C8(FP-C0805C-DN-IPC_B)
+Added Component: Designator=C9(FP-C0805C-DN-IPC_B)
+Added Pin To Net: NetName=RXD Pin=R3-1
+Added Pin To Net: NetName=RXD Pin=U1-31
+Added Pin To Net: NetName=RXD Pin=USART2-3
+Added Net: Name=RXD
+Added Pin To Net: NetName=TXD Pin=R2-1
+Added Pin To Net: NetName=TXD Pin=U1-30
+Added Pin To Net: NetName=TXD Pin=USART2-2
+Added Net: Name=TXD

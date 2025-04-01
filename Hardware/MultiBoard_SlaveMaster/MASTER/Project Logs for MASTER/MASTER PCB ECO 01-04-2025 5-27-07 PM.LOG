@@ -1,0 +1,70 @@
+Removed Pin From Net: NetName=3v3 Pin=R1-1
+Removed Pin From Net: NetName=NetBoot1_1 Pin=R1-2
+Removed Pin From Net: NetName=GND Pin=R5-1
+Removed Pin From Net: NetName=NetBoot1_3 Pin=R5-2
+Removed Pin From Net: NetName=3v3 Pin=R12-1
+Removed Pin From Net: NetName=NetBoot0_1 Pin=R12-2
+Removed Pin From Net: NetName=GND Pin=R13-1
+Removed Pin From Net: NetName=NetBoot0_3 Pin=R13-2
+Removed Member From Class: ClassName=CH340G Member=Boot0
+Removed Member From Class: ClassName=CH340G Member=Boot1
+Removed Member From Class: ClassName=CH340G Member=R1
+Removed Member From Class: ClassName=CH340G Member=R5
+Removed Member From Class: ClassName=CH340G Member=R12
+Removed Member From Class: ClassName=CH340G Member=R13
+Change Component Designator: OldDesignator=SWD NewDesignator=SWD?
+Added Component: Designator=R?(RES 0805_2012)
+Add component (AddParameter): Name = "VALUE"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES 0805_2012)
+Add component (AddParameter): Name = "VALUE"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES 0805_2012)
+Add component (AddParameter): Name = "VALUE"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES 0805_2012)
+Add component (AddParameter): Name = "VALUE"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=U4(TO-252)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000546.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Nov-2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin Transistor Outline Package 2.28 mm Pitch, 9.7 mm Lead Span (DPAK)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "TO-252"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "LF33CDT-TR"; VariantName = "[No Variations]"
+Added Component: Designator=U5(TO-252)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.national.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "LM78M05 Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.national.com/ds/LM/LM78M05.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "LM78M05 Web Page"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.national.com/pf/LM/LM78M05.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "T03B Package Page"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "http://www.national.com/packaging/folders/t03b.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Aug-2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "High-Reliability"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "National Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "LM78M05CDTX/NOPB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PinCount"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerWise"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3v3 Pin=R?-1
+Added Pin To Net: NetName=3v3 Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=NetBoot0_1 Pin=R?-2
+Added Pin To Net: NetName=NetBoot0_3 Pin=R?-2
+Added Pin To Net: NetName=NetBoot1_1 Pin=R?-2
+Added Pin To Net: NetName=NetBoot1_3 Pin=R?-2
+Change Net Name : Old Net Name=NetBoot0_2 New Net Name=Boot0
+Change Net Name : Old Net Name=NetBoot1_2 New Net Name=Boot1
+Added Member To Class: ClassName=Micro Member=Component 7seg
+Added Member To Class: ClassName=Micro Member=Component Boot0 HDRM3
+Added Member To Class: ClassName=Micro Member=Component Boot1 HDRM3
+Added Member To Class: ClassName=Micro Member=Component R? 10k
+Added Member To Class: ClassName=Micro Member=Component R? 10k
+Added Member To Class: ClassName=Micro Member=Component R? 10k
+Added Member To Class: ClassName=Micro Member=Component R? 10k
+Added Member To Class: ClassName=Micro Member=Component Receive Tactile 4PIN 6X6mm H5mm (THD)
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component U4 LF33
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component U5 7805
+Added Room: Name=Micro

@@ -1,0 +1,166 @@
+Removed Pin From Net: NetName=INC Pin=+-2
+Removed Pin From Net: NetName=GND Pin=+-4
+Removed Pin From Net: NetName=GND Pin=J1-A1/B12
+Removed Pin From Net: NetName=NetC3_1 Pin=J1-A4/B9
+Removed Pin From Net: NetName=D+ Pin=J1-A6
+Removed Pin From Net: NetName=D- Pin=J1-A7
+Removed Pin From Net: NetName=GND Pin=J1-B1/A12
+Removed Pin From Net: NetName=D+ Pin=J1-B6
+Removed Pin From Net: NetName=D- Pin=J1-B7
+Removed Pin From Net: NetName=GND Pin=J1-SH1
+Removed Pin From Net: NetName=GND Pin=J1-SH2
+Removed Pin From Net: NetName=GND Pin=J1-SH3
+Removed Pin From Net: NetName=GND Pin=J1-SH4
+Removed Pin From Net: NetName=3v3 Pin=Program-1
+Removed Pin From Net: NetName=SWDIO Pin=Program-2
+Removed Pin From Net: NetName=SWCLK Pin=Program-3
+Removed Pin From Net: NetName=GND Pin=Program-4
+Removed Pin From Net: NetName=GND Pin=R1-1
+Removed Pin From Net: NetName=GND Pin=R6-1
+Removed Pin From Net: NetName=Receiver Pin=Receive-1
+Removed Pin From Net: NetName=Receiver Pin=Receive-2
+Removed Pin From Net: NetName=GND Pin=Receive-3
+Removed Pin From Net: NetName=GND Pin=Receive-4
+Removed Pin From Net: NetName=Transmitt Pin=Transmitt-2
+Removed Pin From Net: NetName=GND Pin=Transmitt-4
+Removed Pin From Net: NetName=TXD Pin=U1-12
+Removed Pin From Net: NetName=RXD Pin=U1-13
+Removed Pin From Net: NetName=TX Pin=U1-30
+Removed Pin From Net: NetName=RX Pin=U1-31
+Removed Member From Class: ClassName=Micro Member=Program
+Removed Member From Class: ClassName=Micro Member=R6
+Removed Member From Class: ClassName=Micro Member=SW?
+Change Component Footprint: Designator=7seg Old Footprint=7seg 12x19 New Footprint=PCBComponent_1
+Change Component Footprint: Designator=+ Old Footprint=SW_FSM8JH New Footprint=SWPBT_SPDT_6X6X5SKHH
+Change Component Footprint: Designator=Transmitt Old Footprint=SW_FSM8JH New Footprint=SWPBT_SPDT_6X6X5SKHH
+Change Component Footprint: Designator=J1 Old Footprint=TE_2340901-1 New Footprint=GCT_USB4125-GF-A_REVA2
+Change Component Comment : Designator=R1 Old Comment=5.1K New Comment=10k
+Change Component Comment : Designator=R5 Old Comment=5.1K New Comment=10k
+Change Component Comment : Designator=J1 Old Comment=2340901-1 New Comment=USB4125-GF-A_REVA2
+Change Component Comment : Designator=+ Old Comment=FSM8JH New Comment=Tactile 4PIN 6X6mm H5mm (THD)
+Change Component Comment : Designator=Transmitt Old Comment=FSM8JH New Comment=Tactile 4PIN 6X6mm H5mm (THD)
+Change Component Designator: OldDesignator=12V NewDesignator=5v
+Change Component Designator: OldDesignator=SW? NewDesignator=Receive
+Change Component Designator: OldDesignator=USART1 NewDesignator=USART2
+Change component parameters: Designator = "J1" ("J1"); Footprint = "TE_2340901-1"; UniqueID = "\SKZUHWXQ\NEJYDWUT" ("\SKZUHWXQ\NEJYDWUT")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "USB4125-GF-A_REVA2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "+" ("+"); Footprint = "SW_FSM8JH"; UniqueID = "\FDFPINHW\ZRBGIELC" ("\FDFPINHW\ZRBGIELC")
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "PTS645SH50SMTR92 LFS"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Transmitt" ("Transmitt"); Footprint = "SW_FSM8JH"; UniqueID = "\FDFPINHW\NQPGJSEN" ("\FDFPINHW\NQPGJSEN")
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "PTS645SH50SMTR92 LFS"; VariantName = "[No Variations]"
+Added Component: Designator=Boot0(HDR_1X3)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "HDRM3"; VariantName = "[No Variations]"
+Added Component: Designator=Boot1(HDR_1X3)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "HDRM3"; VariantName = "[No Variations]"
+Added Component: Designator=R12(RES 0805_2012)
+Add component (AddParameter): Name = "VALUE"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R13(RES 0805_2012)
+Add component (AddParameter): Name = "VALUE"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=SWD?(HDR_1X5)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "HDRM5"; VariantName = "[No Variations]"
+Added Component: Designator=U4(TO-252)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000546.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Nov-2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin Transistor Outline Package 2.28 mm Pitch, 9.7 mm Lead Span (DPAK)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "TO-252"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "LF33CDT-TR"; VariantName = "[No Variations]"
+Added Component: Designator=U5(TO-252)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.national.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "LM78M05 Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.national.com/ds/LM/LM78M05.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "LM78M05 Web Page"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.national.com/pf/LM/LM78M05.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "T03B Package Page"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "http://www.national.com/packaging/folders/t03b.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Aug-2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "High-Reliability"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "National Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "LM78M05CDTX/NOPB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PinCount"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerWise"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=+-2
+Added Pin To Net: NetName=INC Pin=+-4
+Added Pin To Net: NetName=D+ Pin=J1-A5
+Added Pin To Net: NetName=NetC3_1 Pin=J1-A9
+Added Pin To Net: NetName=GND Pin=J1-A12
+Added Pin To Net: NetName=D- Pin=J1-B5
+Added Pin To Net: NetName=NetC3_1 Pin=J1-B9
+Added Pin To Net: NetName=GND Pin=J1-B12
+Added Pin To Net: NetName=GND Pin=J1-S1
+Added Pin To Net: NetName=GND Pin=J1-S2
+Added Pin To Net: NetName=GND Pin=J1-S3
+Added Pin To Net: NetName=GND Pin=J1-S4
+Added Pin To Net: NetName=3v3 Pin=R1-1
+Added Pin To Net: NetName=3v3 Pin=R12-1
+Added Pin To Net: NetName=GND Pin=R13-1
+Added Pin To Net: NetName=Receiver Pin=Receive-1
+Added Pin To Net: NetName=GND Pin=Receive-2
+Added Pin To Net: NetName=GND Pin=Receive-3
+Added Pin To Net: NetName=Receiver Pin=Receive-4
+Added Pin To Net: NetName=3v3 Pin=SWD?-1
+Added Pin To Net: NetName=SWDIO Pin=SWD?-2
+Added Pin To Net: NetName=SWCLK Pin=SWD?-3
+Added Pin To Net: NetName=NRST Pin=SWD?-4
+Added Pin To Net: NetName=GND Pin=SWD?-5
+Added Pin To Net: NetName=GND Pin=Transmitt-2
+Added Pin To Net: NetName=Transmitt Pin=Transmitt-4
+Added Pin To Net: NetName=TX Pin=U1-12
+Added Pin To Net: NetName=RX Pin=U1-13
+Added Pin To Net: NetName=TXD Pin=U1-30
+Added Pin To Net: NetName=RXD Pin=U1-31
+Change Net Name : Old Net Name=Net12V_1 New Net Name=Net5v_1
+Added Pin To Net: NetName=NetBoot0_1 Pin=Boot0-1
+Added Pin To Net: NetName=NetBoot0_1 Pin=R12-2
+Added Net: Name=NetBoot0_1
+Added Pin To Net: NetName=NetBoot0_2 Pin=Boot0-2
+Added Pin To Net: NetName=NetBoot0_2 Pin=U1-44
+Added Net: Name=NetBoot0_2
+Added Pin To Net: NetName=NetBoot0_3 Pin=Boot0-3
+Added Pin To Net: NetName=NetBoot0_3 Pin=R13-2
+Added Net: Name=NetBoot0_3
+Added Pin To Net: NetName=NetBoot1_1 Pin=Boot1-1
+Added Pin To Net: NetName=NetBoot1_1 Pin=R1-2
+Added Net: Name=NetBoot1_1
+Added Pin To Net: NetName=NetBoot1_2 Pin=Boot1-2
+Added Pin To Net: NetName=NetBoot1_2 Pin=U1-20
+Added Net: Name=NetBoot1_2
+Added Pin To Net: NetName=NetBoot1_3 Pin=Boot1-3
+Added Pin To Net: NetName=NetBoot1_3 Pin=R5-2
+Added Net: Name=NetBoot1_3
+Added Member To Class: ClassName=CH340G Member=Component Boot0 HDRM3
+Added Member To Class: ClassName=CH340G Member=Component Boot1 HDRM3
+Added Member To Class: ClassName=CH340G Member=Component R12 10k
+Added Member To Class: ClassName=CH340G Member=Component R13 10k
+Added Member To Class: ClassName=Micro Member=Component SWD? HDR1X5
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component U4 LF33
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component U5 7805
+Added Room: Name=Micro

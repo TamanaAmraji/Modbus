@@ -1,0 +1,96 @@
+Removed Pin From Net: NetName=NetC3_1 Pin=C8-2
+Removed Pin From Net: NetName=GND Pin=C9-1
+Removed Pin From Net: NetName=3v3 Pin=C9-2
+Removed Pin From Net: NetName=NRST Pin=C14-2
+Removed Pin From Net: NetName=GND Pin=C16-1
+Removed Pin From Net: NetName=3v3 Pin=C16-2
+Removed Member From Class: ClassName=Supply 12V to 5V-7805 smd Member=U4
+Removed Member From Class: ClassName=Supply 12V to 5V-7805 smd Member=U5
+Change Component Footprint: Designator=C7 Old Footprint=FP-C0805C-DN-MFG New Footprint=CAP 0805_2012
+Change Component Footprint: Designator=C8 Old Footprint=FP-C0805C-DN-MFG New Footprint=CAP 0805_2012
+Change Component Footprint: Designator=C9 Old Footprint=FP-C0805C-DN-MFG New Footprint=CAP 0805_2012
+Change Component Footprint: Designator=C10 Old Footprint=FP-C0805C-DN-MFG New Footprint=CAP 0805_2012
+Change Component Footprint: Designator=C11 Old Footprint=FP-C0805C-DN-MFG New Footprint=CAP 0805_2012
+Change Component Comment : Designator=C8 Old Comment=10uF New Comment=100nF
+Change Component Comment : Designator=C9 Old Comment=100nF New Comment=10uF
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R5
+Change Component Designator: OldDesignator=R? NewDesignator=R6
+Change Component Designator: OldDesignator=R? NewDesignator=R12
+Change Component Designator: OldDesignator=SWD? NewDesignator=SWD1
+Change Managed Component Library Link : Designator=C7 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=B9488122-88ED-4EC5-84F7-203174F09D93 New ItemGUID= Old RevisionGUID=3073E26B-F5D9-41D4-961E-5BC2B966745A New RevisionGUID=
+Change Managed Component Library Link : Designator=C8 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=B9488122-88ED-4EC5-84F7-203174F09D93 New ItemGUID= Old RevisionGUID=3073E26B-F5D9-41D4-961E-5BC2B966745A New RevisionGUID=
+Change Managed Component Library Link : Designator=C9 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=B9488122-88ED-4EC5-84F7-203174F09D93 New ItemGUID= Old RevisionGUID=3073E26B-F5D9-41D4-961E-5BC2B966745A New RevisionGUID=
+Change Managed Component Library Link : Designator=C10 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=B9488122-88ED-4EC5-84F7-203174F09D93 New ItemGUID= Old RevisionGUID=3073E26B-F5D9-41D4-961E-5BC2B966745A New RevisionGUID=
+Change Managed Component Library Link : Designator=C11 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=B9488122-88ED-4EC5-84F7-203174F09D93 New ItemGUID= Old RevisionGUID=3073E26B-F5D9-41D4-961E-5BC2B966745A New RevisionGUID=
+Change component parameters: Designator = "C14" ("C14"); Footprint = "CAP 0805_2012"; UniqueID = "\FDFPINHW\GEDHTOVC" ("\FDFPINHW\GEDHTOVC")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "LD051C182KAB2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C15" ("C15"); Footprint = "CAP 0805_2012"; UniqueID = "\FDFPINHW\KCLZGPPA" ("\FDFPINHW\KCLZGPPA")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "LD051C182KAB2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C16" ("C16"); Footprint = "CAP 0805_2012"; UniqueID = "\FDFPINHW\QAPJJPRP" ("\FDFPINHW\QAPJJPRP")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "LD051C182KAB2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C17" ("C17"); Footprint = "CAP 0805_2012"; UniqueID = "\FDFPINHW\BYMDNXSG" ("\FDFPINHW\BYMDNXSG")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "LD051C182KAB2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C7" ("C7"); Footprint = "FP-C0805C-DN-MFG"; UniqueID = "\SZDVFMLH\XFVMWXUJ" ("\SZDVFMLH\XFVMWXUJ")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "LD051C182KAB2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C8" ("C8"); Footprint = "FP-C0805C-DN-MFG"; UniqueID = "\SZDVFMLH\IBUZTQOW" ("\SZDVFMLH\IBUZTQOW")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "LD051C182KAB2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C9" ("C9"); Footprint = "FP-C0805C-DN-MFG"; UniqueID = "\SZDVFMLH\QBMKLLFZ" ("\SZDVFMLH\QBMKLLFZ")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "LD051C182KAB2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C10" ("C10"); Footprint = "FP-C0805C-DN-MFG"; UniqueID = "\XWCGJUSZ\TJPKORBC" ("\XWCGJUSZ\TJPKORBC")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "LD051C182KAB2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11" ("C11"); Footprint = "FP-C0805C-DN-MFG"; UniqueID = "\XWCGJUSZ\NYPCWKWD" ("\XWCGJUSZ\NYPCWKWD")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "LD051C182KAB2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3v3 Pin=C8-2
+Added Pin To Net: NetName=NetC3_1 Pin=C9-2
+Added Pin To Net: NetName=3v3 Pin=C14-2
+Added Pin To Net: NetName=NRST Pin=C16-1
+Added Pin To Net: NetName=GND Pin=C16-2
+Added Member To Class: ClassName=Micro Member=Component R5 10k
+Added Member To Class: ClassName=Micro Member=Component R6 10k
+Added Member To Class: ClassName=Micro Member=Component R12 10k

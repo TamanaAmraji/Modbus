@@ -1,0 +1,15 @@
+Added Component: Designator=7seg(PCBComponent_1)
+Added Component: Designator=C7(FP-C0805C-DN-MFG)
+Added Component: Designator=C8(FP-C0805C-DN-IPC_B)
+Added Component: Designator=C9(FP-C0805C-DN-IPC_B)
+Added Pin To Net: NetName=e Pin=7seg-1
+Added Pin To Net: NetName=d Pin=7seg-2
+Added Pin To Net: NetName=com Pin=7seg-3
+Added Pin To Net: NetName=c Pin=7seg-4
+Added Pin To Net: NetName=DP Pin=7seg-5
+Added Pin To Net: NetName=b Pin=7seg-6
+Added Pin To Net: NetName=a Pin=7seg-7
+Added Pin To Net: NetName=Net7seg_8 Pin=7seg-8
+Added Pin To Net: NetName=f Pin=7seg-9
+Added Pin To Net: NetName=g Pin=7seg-10
+Added Member To Class: ClassName=Slave_Micro Member=Component 7seg
