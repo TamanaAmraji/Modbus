@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=3v3 Pin=Boot1-1
+Added Pin To Net: NetName=NetBoot0_1 Pin=Boot1-1

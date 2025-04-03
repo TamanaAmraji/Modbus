@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=NetC3_2 Pin=J1-A9
+Removed Pin From Net: NetName=NetC3_2 Pin=J1-B9
+Removed Pin From Net: NetName=NetR66_1 Pin=U1-32
+Removed Pin From Net: NetName=TXD Pin=USART2-2
+Removed Pin From Net: NetName=RXD Pin=USART2-3
+Added Component: Designator=D?(SOD-523F)
+Add component (AddParameter): Name = "PartNumber"; Value = "1N4148WT"; VariantName = "[No Variations]"
+Added Component: Designator=D?(SOD-523F)
+Add component (AddParameter): Name = "PartNumber"; Value = "1N4148WT"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=NetC3_2 Pin=D?-2
+Added Pin To Net: NetName=NetR66_1 Pin=U1-14
+Change Net Name : Old Net Name=RXD New Net Name=NetR13_2
+Change Net Name : Old Net Name=TXD New Net Name=NetRX_2
+Added Pin To Net: NetName=NetD?_1 Pin=D?-1
+Added Pin To Net: NetName=NetD?_1 Pin=D?-2
+Added Net: Name=NetD?_1
+Added Pin To Net: NetName=RXD Pin=USART2-3
+Added Net: Name=RXD
+Added Pin To Net: NetName=TXD Pin=USART2-2
+Added Net: Name=TXD
+Added Member To Class: ClassName=CH340G Member=Component D? 1N4148
+Added Member To Class: ClassName=CH340G Member=Component D? 1N4148

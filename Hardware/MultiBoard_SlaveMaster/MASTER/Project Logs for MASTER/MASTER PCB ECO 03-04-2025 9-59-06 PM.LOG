@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetBoot0_1 Pin=Boot1-1
+Removed Pin From Net: NetName=Boot1 Pin=Boot1-2
+Removed Pin From Net: NetName=NetBoot0_3 Pin=Boot1-3
+Removed Member From Class: ClassName=Micro Member=Boot1
