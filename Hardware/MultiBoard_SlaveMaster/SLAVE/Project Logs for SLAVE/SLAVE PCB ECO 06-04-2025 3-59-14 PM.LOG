@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=3v3 Pin=R6-1
+Removed Pin From Net: NetName=GND Pin=R16-1
+Removed Pin From Net: NetName=TXD Pin=USART2-2
+Removed Pin From Net: NetName=RXD Pin=USART2-3
+Removed Member From Class: ClassName=Slave_Micro Member=Boot1
+Removed Member From Class: ClassName=Slave_Micro Member=R6
+Removed Member From Class: ClassName=Slave_Micro Member=R16
+Added Pin To Net: NetName=GND Pin=Switch-2
+Added Pin To Net: NetName=GND Pin=Switch-3
+Change Net Name : Old Net Name=RX New Net Name=NetR65_1
+Change Net Name : Old Net Name=RXD New Net Name=NetR13_2
+Change Net Name : Old Net Name=TX New Net Name=NetR68_1
+Change Net Name : Old Net Name=TXD New Net Name=NetRX_2

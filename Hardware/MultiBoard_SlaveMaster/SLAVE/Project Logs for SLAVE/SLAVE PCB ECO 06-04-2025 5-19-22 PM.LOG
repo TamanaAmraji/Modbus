@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=com Pin=7seg-3
+Added Pin To Net: NetName=com Pin=7seg-8
+Added Pin To Net: NetName=Net7seg_3 Pin=7seg-3
+Added Pin To Net: NetName=Net7seg_3 Pin=R8-2
+Added Net: Name=Net7seg_3
+Added Room: Name=Slave_Micro

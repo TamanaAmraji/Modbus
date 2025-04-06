@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=R1 Pin=keypad-1
+Removed Pin From Net: NetName=R2 Pin=keypad-2
+Removed Pin From Net: NetName=R3 Pin=keypad-3
+Removed Pin From Net: NetName=C1 Pin=keypad-5
+Removed Pin From Net: NetName=C2 Pin=keypad-6
+Removed Pin From Net: NetName=C3 Pin=keypad-7
+Added Pin To Net: NetName=C3 Pin=keypad-1
+Added Pin To Net: NetName=C2 Pin=keypad-2
+Added Pin To Net: NetName=C1 Pin=keypad-3
+Added Pin To Net: NetName=R3 Pin=keypad-5
+Added Pin To Net: NetName=R2 Pin=keypad-6
+Added Pin To Net: NetName=R1 Pin=keypad-7

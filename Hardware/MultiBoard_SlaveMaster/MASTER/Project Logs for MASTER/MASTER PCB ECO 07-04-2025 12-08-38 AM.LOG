@@ -1,0 +1,64 @@
+Added Member To Class: ClassName=Micro Member=Component + Tactile 4PIN 6X6mm H5mm (THD)
+Added Member To Class: ClassName=Supply 5V to 3V3- Ams1117 Member=Component 3v3 LED SMD 0805 GREEN
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component 5v LED SMD 0805 GREEN
+Added Member To Class: ClassName=Micro Member=Component 7seg
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component 12V-DC Power Jack
+Added Member To Class: ClassName=Micro Member=Component Boot0 HDRM3
+Added Member To Class: ClassName=CH340G Member=Component C1 22pF
+Added Member To Class: ClassName=CH340G Member=Component C2 22pF
+Added Member To Class: ClassName=MAX485 Member=Component C3 10uF
+Added Member To Class: ClassName=MAX485 Member=Component C4 100nF
+Added Member To Class: ClassName=CH340G Member=Component C5 100nF
+Added Member To Class: ClassName=CH340G Member=Component C6 10uF
+Added Member To Class: ClassName=Supply 5V to 3V3- Ams1117 Member=Component C7 10uF
+Added Member To Class: ClassName=Supply 5V to 3V3- Ams1117 Member=Component C8 100nF
+Added Member To Class: ClassName=Supply 5V to 3V3- Ams1117 Member=Component C9 10uF
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component C10 10uF
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component C11 10uF
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component C12 100nF
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component C13 100nF
+Added Member To Class: ClassName=Micro Member=Component C14 100nF
+Added Member To Class: ClassName=Micro Member=Component C15 100nF
+Added Member To Class: ClassName=Micro Member=Component C16 100nF
+Added Member To Class: ClassName=Micro Member=Component C17 100nF
+Added Member To Class: ClassName=CH340G Member=Component C18 100nF
+Added Member To Class: ClassName=CH340G Member=Component C19 100nF
+Added Member To Class: ClassName=CH340G Member=Component C20 100nF
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component D1 SS14
+Added Member To Class: ClassName=CH340G Member=Component D2 1N4148
+Added Member To Class: ClassName=CH340G Member=Component D3 1N4148
+Added Member To Class: ClassName=CH340G Member=Component J1 USB4125-GF-A_REVA2
+Added Member To Class: ClassName=Micro Member=Component LED LED SMD 0805 GREEN
+Added Member To Class: ClassName=MAX485 Member=Component MAX485 phoenix 2.54
+Added Member To Class: ClassName=CH340G Member=Component R2 1.5k
+Added Member To Class: ClassName=CH340G Member=Component R3 1.5k
+Added Member To Class: ClassName=Micro Member=Component R4 10K
+Added Member To Class: ClassName=Micro Member=Component R5 10k
+Added Member To Class: ClassName=Micro Member=Component R7 330
+Added Member To Class: ClassName=Micro Member=Component R8 10K
+Added Member To Class: ClassName=Micro Member=Component R9 10K
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component R10 1K
+Added Member To Class: ClassName=Micro Member=Component R11 10K
+Added Member To Class: ClassName=Micro Member=Component R12 10k
+Added Member To Class: ClassName=CH340G Member=Component R13 1.5k
+Added Member To Class: ClassName=Supply 5V to 3V3- Ams1117 Member=Component R15 330
+Added Member To Class: ClassName=MAX485 Member=Component R65 10k
+Added Member To Class: ClassName=MAX485 Member=Component R66 10k
+Added Member To Class: ClassName=MAX485 Member=Component R67 10k
+Added Member To Class: ClassName=MAX485 Member=Component R68 10k
+Added Member To Class: ClassName=MAX485 Member=Component R69 20k
+Added Member To Class: ClassName=MAX485 Member=Component R70 120
+Added Member To Class: ClassName=MAX485 Member=Component R71 20k
+Added Member To Class: ClassName=Micro Member=Component Receive Tactile 4PIN 6X6mm H5mm (THD)
+Added Member To Class: ClassName=CH340G Member=Component RX LED SMD 0805 GREEN
+Added Member To Class: ClassName=Micro Member=Component SW1 Tactile 2PIN 6X3.5mm H4.57mm (SMD)
+Added Member To Class: ClassName=Micro Member=Component SWD1 HDR1X5
+Added Member To Class: ClassName=Micro Member=Component Transmitt Tactile 4PIN 6X6mm H5mm (THD)
+Added Member To Class: ClassName=CH340G Member=Component TX LED SMD 0805 GREEN
+Added Member To Class: ClassName=Micro Member=Component U1 STM32F103C8T6
+Added Member To Class: ClassName=Supply 5V to 3V3- Ams1117 Member=Component U2 LD1117-3.3V
+Added Member To Class: ClassName=CH340G Member=Component U3 CH340G
+Added Member To Class: ClassName=MAX485 Member=Component U8 ADM485
+Added Member To Class: ClassName=Micro Member=Component USART2 HDR1X4
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component VR1 L78M12ABDT
+Added Member To Class: ClassName=CH340G Member=Component Y2 12MHz

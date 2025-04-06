@@ -1,0 +1,271 @@
+Change Component Designator: OldDesignator= NewDesignator=C7
+Change Component Designator: OldDesignator= NewDesignator=C8
+Change Component Designator: OldDesignator= NewDesignator=R2
+Change Component Designator: OldDesignator= NewDesignator=R4
+Added Pin To Net: NetName=INC Pin=+-1
+Added Pin To Net: NetName=GND Pin=+-2
+Added Pin To Net: NetName=GND Pin=+-3
+Added Pin To Net: NetName=INC Pin=+-4
+Added Pin To Net: NetName=Net3v3_1 Pin=3v3-1
+Added Pin To Net: NetName=GND Pin=3v3-2
+Added Pin To Net: NetName=Net5v_1 Pin=5v-1
+Added Pin To Net: NetName=GND Pin=5v-2
+Added Pin To Net: NetName=e Pin=7seg-1
+Added Pin To Net: NetName=d Pin=7seg-2
+Added Pin To Net: NetName=com Pin=7seg-3
+Added Pin To Net: NetName=c Pin=7seg-4
+Added Pin To Net: NetName=DP Pin=7seg-5
+Added Pin To Net: NetName=b Pin=7seg-6
+Added Pin To Net: NetName=a Pin=7seg-7
+Added Pin To Net: NetName=com Pin=7seg-8
+Added Pin To Net: NetName=f Pin=7seg-9
+Added Pin To Net: NetName=g Pin=7seg-10
+Added Pin To Net: NetName=Net12V-DC_1 Pin=12V-DC-1
+Added Pin To Net: NetName=GND Pin=12V-DC-2
+Added Pin To Net: NetName=GND Pin=12V-DC-3
+Added Pin To Net: NetName=NetBoot0_1 Pin=Boot0-1
+Added Pin To Net: NetName=Boot0 Pin=Boot0-2
+Added Pin To Net: NetName=NetBoot0_3 Pin=Boot0-3
+Added Pin To Net: NetName=XI Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=XO Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=NetC3_2 Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=3v3 Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=NetC3_2 Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=3v3 Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=3v3 Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=NetC3_2 Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=+12 Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=NetC3_2 Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=NetC3_2 Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=+12 Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=3v3 Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=3v3 Pin=C15-2
+Added Pin To Net: NetName=NRST Pin=C16-1
+Added Pin To Net: NetName=GND Pin=C16-2
+Added Pin To Net: NetName=GND Pin=C17-1
+Added Pin To Net: NetName=3v3 Pin=C17-2
+Added Pin To Net: NetName=GND Pin=C18-1
+Added Pin To Net: NetName=NetC3_2 Pin=C18-2
+Added Pin To Net: NetName=GND Pin=C19-1
+Added Pin To Net: NetName=NetC3_2 Pin=C19-2
+Added Pin To Net: NetName=NRST Pin=C20-1
+Added Pin To Net: NetName=NetC20_2 Pin=C20-2
+Added Pin To Net: NetName=Net12V-DC_1 Pin=D1-1
+Added Pin To Net: NetName=+12 Pin=D1-2
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetC3_2 Pin=D2-2
+Added Pin To Net: NetName=NetD3_1 Pin=D3-1
+Added Pin To Net: NetName=NetD2_1 Pin=D3-2
+Added Pin To Net: NetName=D+ Pin=J1-A5
+Added Pin To Net: NetName=NetD3_1 Pin=J1-A9
+Added Pin To Net: NetName=GND Pin=J1-A12
+Added Pin To Net: NetName=D- Pin=J1-B5
+Added Pin To Net: NetName=NetD3_1 Pin=J1-B9
+Added Pin To Net: NetName=GND Pin=J1-B12
+Added Pin To Net: NetName=GND Pin=J1-S1
+Added Pin To Net: NetName=GND Pin=J1-S2
+Added Pin To Net: NetName=GND Pin=J1-S3
+Added Pin To Net: NetName=GND Pin=J1-S4
+Added Pin To Net: NetName=NetLED_1 Pin=LED-1
+Added Pin To Net: NetName=GND Pin=LED-2
+Added Pin To Net: NetName=NetC3_2 Pin=MAX485-01
+Added Pin To Net: NetName=NetMAX485_02 Pin=MAX485-02
+Added Pin To Net: NetName=NetMAX485_03 Pin=MAX485-03
+Added Pin To Net: NetName=GND Pin=MAX485-04
+Added Pin To Net: NetName=NetC3_2 Pin=R2-1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetC3_2 Pin=R3-1
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NRST Pin=R4-1
+Added Pin To Net: NetName=3v3 Pin=R4-2
+Added Pin To Net: NetName=3v3 Pin=R5-1
+Added Pin To Net: NetName=NetBoot0_1 Pin=R5-2
+Added Pin To Net: NetName=LED Pin=R7-1
+Added Pin To Net: NetName=NetLED_1 Pin=R7-2
+Added Pin To Net: NetName=Transmitt Pin=R8-1
+Added Pin To Net: NetName=3v3 Pin=R8-2
+Added Pin To Net: NetName=Receiver Pin=R9-1
+Added Pin To Net: NetName=3v3 Pin=R9-2
+Added Pin To Net: NetName=NetC3_2 Pin=R10-1
+Added Pin To Net: NetName=Net5v_1 Pin=R10-2
+Added Pin To Net: NetName=INC Pin=R11-1
+Added Pin To Net: NetName=3v3 Pin=R11-2
+Added Pin To Net: NetName=GND Pin=R12-1
+Added Pin To Net: NetName=NetBoot0_3 Pin=R12-2
+Added Pin To Net: NetName=NetR13_1 Pin=R13-1
+Added Pin To Net: NetName=NetR13_2 Pin=R13-2
+Added Pin To Net: NetName=3v3 Pin=R15-1
+Added Pin To Net: NetName=Net3v3_1 Pin=R15-2
+Added Pin To Net: NetName=NetR65_1 Pin=R65-1
+Added Pin To Net: NetName=NetC3_2 Pin=R65-2
+Added Pin To Net: NetName=NetR66_1 Pin=R66-1
+Added Pin To Net: NetName=NetC3_2 Pin=R66-2
+Added Pin To Net: NetName=NetR66_1 Pin=R67-1
+Added Pin To Net: NetName=NetC3_2 Pin=R67-2
+Added Pin To Net: NetName=NetR68_1 Pin=R68-1
+Added Pin To Net: NetName=NetC3_2 Pin=R68-2
+Added Pin To Net: NetName=NetMAX485_03 Pin=R69-1
+Added Pin To Net: NetName=NetC3_2 Pin=R69-2
+Added Pin To Net: NetName=NetMAX485_02 Pin=R70-1
+Added Pin To Net: NetName=NetMAX485_03 Pin=R70-2
+Added Pin To Net: NetName=GND Pin=R71-1
+Added Pin To Net: NetName=NetMAX485_02 Pin=R71-2
+Added Pin To Net: NetName=Receiver Pin=Receive-1
+Added Pin To Net: NetName=GND Pin=Receive-2
+Added Pin To Net: NetName=GND Pin=Receive-3
+Added Pin To Net: NetName=Receiver Pin=Receive-4
+Added Pin To Net: NetName=NetR2_2 Pin=RX-1
+Added Pin To Net: NetName=NetRX_2 Pin=RX-2
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=NRST Pin=SW1-2
+Added Pin To Net: NetName=3v3 Pin=SWD1-1
+Added Pin To Net: NetName=SWDIO Pin=SWD1-2
+Added Pin To Net: NetName=SWCLK Pin=SWD1-3
+Added Pin To Net: NetName=NRST Pin=SWD1-4
+Added Pin To Net: NetName=GND Pin=SWD1-5
+Added Pin To Net: NetName=Transmitt Pin=Transmitt-1
+Added Pin To Net: NetName=GND Pin=Transmitt-2
+Added Pin To Net: NetName=GND Pin=Transmitt-3
+Added Pin To Net: NetName=Transmitt Pin=Transmitt-4
+Added Pin To Net: NetName=NetR3_2 Pin=TX-1
+Added Pin To Net: NetName=NetR13_1 Pin=TX-2
+Added Pin To Net: NetName=NRST Pin=U1-7
+Added Pin To Net: NetName=3v3 Pin=U1-9
+Added Pin To Net: NetName=Transmitt Pin=U1-10
+Added Pin To Net: NetName=Receiver Pin=U1-11
+Added Pin To Net: NetName=NetR68_1 Pin=U1-12
+Added Pin To Net: NetName=NetR65_1 Pin=U1-13
+Added Pin To Net: NetName=NetR66_1 Pin=U1-14
+Added Pin To Net: NetName=Boot1 Pin=U1-20
+Added Pin To Net: NetName=GND Pin=U1-23
+Added Pin To Net: NetName=3v3 Pin=U1-24
+Added Pin To Net: NetName=DP Pin=U1-25
+Added Pin To Net: NetName=c Pin=U1-26
+Added Pin To Net: NetName=e Pin=U1-27
+Added Pin To Net: NetName=com Pin=U1-28
+Added Pin To Net: NetName=d Pin=U1-29
+Added Pin To Net: NetName=NetRX_2 Pin=U1-30
+Added Pin To Net: NetName=NetR13_2 Pin=U1-31
+Added Pin To Net: NetName=SWDIO Pin=U1-34
+Added Pin To Net: NetName=GND Pin=U1-35
+Added Pin To Net: NetName=3v3 Pin=U1-36
+Added Pin To Net: NetName=SWCLK Pin=U1-37
+Added Pin To Net: NetName=LED Pin=U1-38
+Added Pin To Net: NetName=g Pin=U1-41
+Added Pin To Net: NetName=f Pin=U1-42
+Added Pin To Net: NetName=a Pin=U1-43
+Added Pin To Net: NetName=Boot0 Pin=U1-44
+Added Pin To Net: NetName=b Pin=U1-45
+Added Pin To Net: NetName=INC Pin=U1-46
+Added Pin To Net: NetName=GND Pin=U1-47
+Added Pin To Net: NetName=3v3 Pin=U1-48
+Added Pin To Net: NetName=GND Pin=U2-1
+Added Pin To Net: NetName=3v3 Pin=U2-2
+Added Pin To Net: NetName=NetC3_2 Pin=U2-3
+Added Pin To Net: NetName=3v3 Pin=U2-4
+Added Pin To Net: NetName=GND Pin=U3-1
+Added Pin To Net: NetName=NetR13_2 Pin=U3-2
+Added Pin To Net: NetName=NetRX_2 Pin=U3-3
+Added Pin To Net: NetName=3v3 Pin=U3-4
+Added Pin To Net: NetName=D+ Pin=U3-5
+Added Pin To Net: NetName=D- Pin=U3-6
+Added Pin To Net: NetName=XI Pin=U3-7
+Added Pin To Net: NetName=XO Pin=U3-8
+Added Pin To Net: NetName=NetC20_2 Pin=U3-13
+Added Pin To Net: NetName=NetC3_2 Pin=U3-16
+Added Pin To Net: NetName=NetR65_1 Pin=U8-1
+Added Pin To Net: NetName=NetR66_1 Pin=U8-2
+Added Pin To Net: NetName=NetR66_1 Pin=U8-3
+Added Pin To Net: NetName=NetR68_1 Pin=U8-4
+Added Pin To Net: NetName=GND Pin=U8-5
+Added Pin To Net: NetName=NetMAX485_03 Pin=U8-6
+Added Pin To Net: NetName=NetMAX485_02 Pin=U8-7
+Added Pin To Net: NetName=NetC3_2 Pin=U8-8
+Added Pin To Net: NetName=3v3 Pin=USART2-1
+Added Pin To Net: NetName=GND Pin=USART2-4
+Added Pin To Net: NetName=+12 Pin=VR1-1
+Added Pin To Net: NetName=GND Pin=VR1-2
+Added Pin To Net: NetName=NetC3_2 Pin=VR1-3
+Added Pin To Net: NetName=XO Pin=Y2-1
+Added Pin To Net: NetName=XI Pin=Y2-2
+Added Member To Class: ClassName=Micro Member=Component + Tactile 4PIN 6X6mm H5mm (THD)
+Added Member To Class: ClassName=Supply 5V to 3V3- Ams1117 Member=Component 3v3 LED SMD 0805 GREEN
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component 5v LED SMD 0805 GREEN
+Added Member To Class: ClassName=Micro Member=Component 7seg
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component 12V-DC Power Jack
+Added Member To Class: ClassName=Micro Member=Component Boot0 HDRM3
+Added Member To Class: ClassName=CH340G Member=Component C1 22pF
+Added Member To Class: ClassName=CH340G Member=Component C2 22pF
+Added Member To Class: ClassName=MAX485 Member=Component C3 10uF
+Added Member To Class: ClassName=MAX485 Member=Component C4 100nF
+Added Member To Class: ClassName=CH340G Member=Component C5 100nF
+Added Member To Class: ClassName=CH340G Member=Component C6 10uF
+Added Member To Class: ClassName=Supply 5V to 3V3- Ams1117 Member=Component C7 10uF
+Added Member To Class: ClassName=Supply 5V to 3V3- Ams1117 Member=Component C8 100nF
+Added Member To Class: ClassName=Supply 5V to 3V3- Ams1117 Member=Component C9 10uF
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component C10 10uF
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component C11 10uF
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component C12 100nF
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component C13 100nF
+Added Member To Class: ClassName=Micro Member=Component C14 100nF
+Added Member To Class: ClassName=Micro Member=Component C15 100nF
+Added Member To Class: ClassName=Micro Member=Component C16 100nF
+Added Member To Class: ClassName=Micro Member=Component C17 100nF
+Added Member To Class: ClassName=CH340G Member=Component C18 100nF
+Added Member To Class: ClassName=CH340G Member=Component C19 100nF
+Added Member To Class: ClassName=CH340G Member=Component C20 100nF
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component D1 SS14
+Added Member To Class: ClassName=CH340G Member=Component D2 1N4148
+Added Member To Class: ClassName=CH340G Member=Component D3 1N4148
+Added Member To Class: ClassName=CH340G Member=Component J1 USB4125-GF-A_REVA2
+Added Member To Class: ClassName=Micro Member=Component LED LED SMD 0805 GREEN
+Added Member To Class: ClassName=MAX485 Member=Component MAX485 phoenix 2.54
+Added Member To Class: ClassName=CH340G Member=Component R2 1.5k
+Added Member To Class: ClassName=CH340G Member=Component R3 1.5k
+Added Member To Class: ClassName=Micro Member=Component R4 10K
+Added Member To Class: ClassName=Micro Member=Component R5 10k
+Added Member To Class: ClassName=Micro Member=Component R7 330
+Added Member To Class: ClassName=Micro Member=Component R8 10K
+Added Member To Class: ClassName=Micro Member=Component R9 10K
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component R10 1K
+Added Member To Class: ClassName=Micro Member=Component R11 10K
+Added Member To Class: ClassName=Micro Member=Component R12 10k
+Added Member To Class: ClassName=CH340G Member=Component R13 1.5k
+Added Member To Class: ClassName=Supply 5V to 3V3- Ams1117 Member=Component R15 330
+Added Member To Class: ClassName=MAX485 Member=Component R65 10k
+Added Member To Class: ClassName=MAX485 Member=Component R66 10k
+Added Member To Class: ClassName=MAX485 Member=Component R67 10k
+Added Member To Class: ClassName=MAX485 Member=Component R68 10k
+Added Member To Class: ClassName=MAX485 Member=Component R69 20k
+Added Member To Class: ClassName=MAX485 Member=Component R70 120
+Added Member To Class: ClassName=MAX485 Member=Component R71 20k
+Added Member To Class: ClassName=Micro Member=Component Receive Tactile 4PIN 6X6mm H5mm (THD)
+Added Member To Class: ClassName=CH340G Member=Component RX LED SMD 0805 GREEN
+Added Member To Class: ClassName=Micro Member=Component SW1 Tactile 2PIN 6X3.5mm H4.57mm (SMD)
+Added Member To Class: ClassName=Micro Member=Component SWD1 HDR1X5
+Added Member To Class: ClassName=Micro Member=Component Transmitt Tactile 4PIN 6X6mm H5mm (THD)
+Added Member To Class: ClassName=CH340G Member=Component TX LED SMD 0805 GREEN
+Added Member To Class: ClassName=Micro Member=Component U1 STM32F103C8T6
+Added Member To Class: ClassName=Supply 5V to 3V3- Ams1117 Member=Component U2 LD1117-3.3V
+Added Member To Class: ClassName=CH340G Member=Component U3 CH340G
+Added Member To Class: ClassName=MAX485 Member=Component U8 ADM485
+Added Member To Class: ClassName=Micro Member=Component USART2 HDR1X4
+Added Member To Class: ClassName=Supply 12V to 5V-7805 smd Member=Component VR1 L78M12ABDT
+Added Member To Class: ClassName=CH340G Member=Component Y2 12MHz
+Added Room: Name=Micro

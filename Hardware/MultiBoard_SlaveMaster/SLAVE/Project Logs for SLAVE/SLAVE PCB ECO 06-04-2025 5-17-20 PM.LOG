@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=c Pin=7seg-4
+Removed Pin From Net: NetName=DP Pin=7seg-5
+Removed Pin From Net: NetName=b Pin=7seg-6
+Removed Pin From Net: NetName=a Pin=7seg-7
+Removed Pin From Net: NetName=DP Pin=U1-25
+Removed Pin From Net: NetName=c Pin=U1-26
+Removed Pin From Net: NetName=com Pin=U1-28
+Added Pin To Net: NetName=g Pin=7seg-1
+Added Pin To Net: NetName=f Pin=7seg-2
+Added Pin To Net: NetName=a Pin=7seg-4
+Added Pin To Net: NetName=b Pin=7seg-5
+Added Pin To Net: NetName=DP Pin=7seg-6
+Added Pin To Net: NetName=c Pin=7seg-7
+Added Pin To Net: NetName=DP Pin=U1-27
+Added Pin To Net: NetName=c Pin=U1-28
+Added Pin To Net: NetName=com Pin=U1-29

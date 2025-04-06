@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=e Pin=7seg-1
+Removed Pin From Net: NetName=d Pin=7seg-2
+Removed Pin From Net: NetName=f Pin=7seg-9
+Removed Pin From Net: NetName=g Pin=7seg-10
+Removed Pin From Net: NetName=e Pin=U1-27
+Removed Pin From Net: NetName=d Pin=U1-29
+Added Pin To Net: NetName=d Pin=U1-32
+Added Pin To Net: NetName=e Pin=U1-33

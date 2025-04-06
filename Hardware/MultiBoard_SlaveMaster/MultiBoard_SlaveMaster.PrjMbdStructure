@@ -1,0 +1,4 @@
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=MASTER\MASTER.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc|ProjectPath=MASTER\MASTER.PrjPcb
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=SLAVE\SLAVE.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc|ProjectPath=SLAVE\SLAVE.PrjPcb
