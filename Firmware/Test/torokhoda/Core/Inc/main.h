@@ -63,8 +63,24 @@ void Error_Handler(void);
 #define Receive_Pin GPIO_PIN_1
 #define Receive_GPIO_Port GPIOA
 #define Receive_EXTI_IRQn EXTI1_IRQn
-#define RE_Pin GPIO_PIN_11
+#define RE_Pin GPIO_PIN_4
 #define RE_GPIO_Port GPIOA
+#define c_Pin GPIO_PIN_13
+#define c_GPIO_Port GPIOB
+#define e_Pin GPIO_PIN_14
+#define e_GPIO_Port GPIOB
+#define com_Pin GPIO_PIN_15
+#define com_GPIO_Port GPIOB
+#define d_Pin GPIO_PIN_8
+#define d_GPIO_Port GPIOA
+#define g_Pin GPIO_PIN_5
+#define g_GPIO_Port GPIOB
+#define f_Pin GPIO_PIN_6
+#define f_GPIO_Port GPIOB
+#define a_Pin GPIO_PIN_7
+#define a_GPIO_Port GPIOB
+#define b_Pin GPIO_PIN_8
+#define b_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

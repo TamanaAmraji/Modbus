@@ -11,7 +11,6 @@
 #include "modbus_crc.h"
 #include "stdint.h"
 #include "M_modbusConf.h"
-#include "usart.h"
 #include <stdbool.h>
 
 

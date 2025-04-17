@@ -1733,6 +1733,7 @@ HAL_StatusTypeDef HAL_UARTEx_ReceiveToIdle_IT(UART_HandleTypeDef *huart, uint8_t
         __HAL_UART_CLEAR_IDLEFLAG(huart);
         ATOMIC_SET_BIT(huart->Instance->CR1, USART_CR1_IDLEIE);
       }
+			
       else
       {
         /* In case of errors already pending when reception is started,

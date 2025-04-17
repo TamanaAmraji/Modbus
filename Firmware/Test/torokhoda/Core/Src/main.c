@@ -24,11 +24,18 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "M_modbus.h"
+//#include "modbus_crc.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-
+#define a 0x2000
+#define b 0x1000
+#define c 0x80
+#define d 0x40
+#define e 0x20
+#define f 0x100
+#define g 0x4000
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -46,54 +53,65 @@
 /* USER CODE BEGIN PV */
 uint32_t previousMillis, currentMillis;
 	int i, data=0;
+
+	
+	
 void SevenSegNumber(int num){
 	switch (num) 
 	{
 		case 0 :
-		GPIOB->ODR = 0x9E3F; 
-		GPIOA->ODR |= 0x00;
-		break;
-		case 1 :
-		GPIOB->ODR |= 0x40E0; 
-		GPIOA->ODR |= 0x100;
-		break;
-		case 2 :
-		GPIOB->ODR = 0xBE5F;
-		GPIOA->ODR &= 0x00;		
-		break;
-		case 3 :
-		GPIOB->ODR = 0xDE5F;
-		GPIOA->ODR &= 0x00;			
-		break;
-		case 4 :
-		GPIOB->ODR = 0xDE9F; 
-		GPIOA->ODR |= 0x100;
-		break;
-		case 5 :
 		GPIOB->ODR = 0xC100; 
 		GPIOA->ODR &= 0x00;	
 		break;
+		case 1 :
+		GPIOB->ODR |= 0x6060; 
+		GPIOA->ODR |= 0x100;	
+		break;
+		case 2 :
+		GPIOB->ODR = ~(a|b|g|e|d);
+		GPIOA->ODR |= 0x100;		
+		break;
+		case 3 :
+		GPIOB->ODR = ~(a|b|c|d|g);
+		GPIOA->ODR |= 0x100;			
+		break;
+		case 4 :
+		GPIOB->ODR = ~(b|c|g); 
+		GPIOA->ODR &= ~0x100;
+		break;
+		case 5 :
+		GPIOB->ODR = ~(a|g|c|d); 
+		GPIOA->ODR &= ~0x100;	
+		break;
 		case 6 :
-		GPIOB->ODR = 0x8100;
-		GPIOA->ODR &= 0x00;			
+		GPIOB->ODR = ~(a|g|c|d|e); 
+		GPIOA->ODR &= ~0x100;			
 		break;
 		case 7 :
-		GPIOB->ODR = 0xC030; 
-		GPIOA->ODR |= 0x100;
+		GPIOB->ODR = ~(a|b|c); 
+		GPIOA->ODR |= 0x100;	
 		break;
 		case 8 :
-		GPIOB->ODR = 0x8000; 
-		GPIOA->ODR &= 0x00;	
+		GPIOB->ODR = ~(a|b|c|d|e|f|g); 
+		GPIOA->ODR &= ~0x100;
 		break;
 		case 9 :
-		GPIOB->ODR |= 0xC000; 
-		GPIOA->ODR &= 0x00;	
+		GPIOB->ODR = ~(a|b|c|d|f|g); 
+		GPIOA->ODR &= ~0x100;
 		break;
 	}
 		
 }
 
-
+/*
+PB7 	C
+PB12 	B
+PB13 	A
+PA8 	F
+PB14	G
+PB6		D
+PB5		E
+*/
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -104,7 +122,10 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+//void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
+//{
+//	HAL_UARTEx_ReceiveToIdle_IT(&uart_ch, RxData, 256);
+//}
 /* USER CODE END 0 */
 
 /**
@@ -136,20 +157,64 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART1_UART_Init();
+  MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+//HAL_GPIO_WritePin(GPIOA, GPIO_PIN_15,GPIO_PIN_RESET);
 
+ //HAL_UART_Receive_IT (&huart1, UART1_rxBuffer, 12);
+ //HAL_UARTEx_ReceiveToIdle_IT(&huart1, UART1_rxBuffer, sizeof(UART1_rxBuffer));
+ 
+ 
+//  HAL_UARTEx_ReceiveToIdle_IT(&huart2, RxData, 32);
+//  TxData[0] = 0x05;  // slave address
+////  TxData[1] = 0x03;  // Function code for Read Holding Registers
+//  TxData[1] = 0x04;  // Function code for Read Input Registers
+//	
+//	  /*
+//   * The function code 0x03 means we are reading Holding Registers
+//   * The Register address ranges from 40001 - 50000
+//   * The register address we input can range from 0-9999 (0x00-0x270F)
+//   * Here 0 corresponds to the Address 40001 and 9999 corresponds to 50000
+//   * Although we can only read 125 registers sequentially at once
+//   */
+////  TxData[2] = 0;
+////  TxData[3] = 0x04;
+////  //The Register address will be 00000000 00000100 = 4 + 40001 = 40005
+
+//  TxData[2] = 0;
+//  TxData[3] = 0x00;
+//  //The Register address will be 00000000 00000001 = 1 +30001 = 30002
+
+//  TxData[4] = 0;
+//  TxData[5] = 0x05;
+//  // no of registers to read will be 00000000 00000101 = 5 Registers = 10 Bytes
+
+//  uint16_t crc = crc16(TxData, 6);
+//  TxData[6] = crc&0xFF;   // CRC LOW
+//  TxData[7] = (crc>>8)&0xFF;  // CRC HIGH
+//	
+//	  sendData(TxData);
+//		
+		
+// HAL_UART_Transmit(&huart1, (uint8_t *)"Hello from STM32\r\n", 18, 100);
+//HAL_Delay(1000);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
+	//		  sendData(TxData);
+	//			HAL_Delay(3000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+			
+				//writeSingeCoil(10,0,1);
+//				readMultipleCoils(10, 0, 1);
+//				HAL_Delay(2000);
 //			  writeSingleHoldingRegister(9, 0, 0xFAFA); 
-//				HAL_Delay(3000);
+				
 //		  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_15);
 //			HAL_Delay(500);
 			// HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8,GPIO_PIN_SET);
@@ -162,6 +227,14 @@ int main(void)
   }
   /* USER CODE END 3 */
 }
+/*if ((RxData[0]|RxData[1]|RxData[2]|RxData[3]|RxData[4]|RxData[5]|RxData[6]|RxData[7]|RxData[8])==0) */ 
+
+
+//void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+//{
+//    HAL_UART_Transmit(&huart1, UART1_rxBuffer, 12, 100);
+//    HAL_UART_Receive_IT(&huart1, UART1_rxBuffer, 12);
+//}
 
 /**
   * @brief System Clock Configuration
@@ -212,9 +285,11 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_PIN)
 			i = 0;
 	}	
 	else if (GPIO_PIN == GPIO_PIN_0 && (currentMillis - previousMillis > 200))
-		writeSingleHoldingRegister(9, 0, 2); 
+		//writeSingeCoil(10,0,1); //RXData[4]
+	writeSingleHoldingRegister(5, 0, i);  //RxData[5]
 	else if (GPIO_PIN == GPIO_PIN_1 && (currentMillis - previousMillis > 200))
-		readInputRegisters(4,0, 1);  
+	 readInputRegisters(5,0, 1); 				//slave ID, register start address, no of registers
+//readMultipleCoils(10, 0, 1);
 	SevenSegNumber(i);
 	previousMillis = currentMillis;
 	}

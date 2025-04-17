@@ -14,9 +14,10 @@ int Data[16];
 
 void sendData (uint8_t *data){
 
-HAL_GPIO_WritePin(GPIOA, GPIO_PIN_11, GPIO_PIN_SET);
+HAL_GPIO_WritePin(TX_EN_GPIO_Port, TX_EN_Pin, GPIO_PIN_SET);
 HAL_UART_Transmit(uart_ch, data, 11, 1000);
-HAL_GPIO_WritePin(GPIOA,GPIO_PIN_11 , GPIO_PIN_RESET);
+HAL_GPIO_WritePin(TX_EN_GPIO_Port,TX_EN_Pin , GPIO_PIN_RESET);
+
 }
 
 /* modbus function codes:
