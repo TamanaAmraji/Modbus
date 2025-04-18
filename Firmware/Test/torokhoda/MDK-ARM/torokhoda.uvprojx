@@ -420,16 +420,6 @@
               <FilePath>../Core/Src/stm32f1xx_hal_msp.c</FilePath>
             </File>
             <File>
-              <FileName>modbus_crc.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>E:\1_Github\Modbus\Firmware\Test\torokhoda\Core\Inc\modbus_crc.h</FilePath>
-            </File>
-            <File>
-              <FileName>M_modbusConf.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>E:\1_Github\Modbus\Firmware\Test\torokhoda\Core\Inc\M_modbusConf.h</FilePath>
-            </File>
-            <File>
               <FileName>modbus_crc.c</FileName>
               <FileType>1</FileType>
               <FilePath>E:\1_Github\Modbus\Firmware\Test\torokhoda\Core\Src\modbus_crc.c</FilePath>
@@ -438,11 +428,6 @@
               <FileName>M_modbus.c</FileName>
               <FileType>1</FileType>
               <FilePath>E:\1_Github\Modbus\Firmware\Test\torokhoda\Core\Src\M_modbus.c</FilePath>
-            </File>
-            <File>
-              <FileName>M_modbus.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>E:\1_Github\Modbus\Firmware\Test\torokhoda\Core\Inc\M_modbus.h</FilePath>
             </File>
           </Files>
         </Group>

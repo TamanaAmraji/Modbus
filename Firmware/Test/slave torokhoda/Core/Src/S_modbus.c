@@ -9,9 +9,10 @@
 #include "string.h"
 #include "S_modbusConf.h"
 
-extern uint8_t RxData[256];
+extern uint8_t RxData[256],meow,flag;
 extern uint8_t TxData[256];
 extern UART_HandleTypeDef uart_ch;
+char RIR[4];
 
 
 void sendData (uint8_t *data, int size)
@@ -77,9 +78,12 @@ uint8_t readHoldingRegs (void)
 	return 1;   // success
 }
 
-uint8_t readInputRegs (void)
+uint8_t readInputRegs (int tosend)
 {
-	//data:
+		RIR[0]=RIR[1]=RIR[2]=RIR[3]= tosend;
+	//if (((RxData[4]<<8)|RxData[5])==1) 
+//	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, GPIO_PIN_SET);
+//}
 	uint16_t startAddr = ((RxData[2]<<8)|RxData[3]);  // start Register Address
 
 	uint16_t numRegs = ((RxData[4]<<8)|RxData[5]);   // number to registers master has requested
@@ -108,14 +112,15 @@ uint8_t readInputRegs (void)
 
 	for (int i=0; i<numRegs; i++)   // Load the actual data into TxData buffer
 	{
-		TxData[indx++] = (Input_Registers_Database[startAddr]>>8)&0xFF;  // extract the higher byte
-		TxData[indx++] = (Input_Registers_Database[startAddr])&0xFF;   // extract the lower byte
+		TxData[indx++] = (RIR[startAddr]>>8)&0xFF;  // extract the higher byte
+		TxData[indx++] = (RIR[startAddr])&0xFF;   // extract the lower byte
 		startAddr++;  // increment the register address
 	}
 
 	sendData(TxData, indx);  // send data... CRC will be calculated in the function itself
 	return 1;   // success
 }
+
 
 uint8_t readCoils (void)
 {
@@ -282,6 +287,7 @@ uint8_t writeHoldingRegs (void)
 
 uint8_t writeSingleReg (void)
 {
+	meow =1;
 	uint16_t startAddr = ((RxData[2]<<8)|RxData[3]);  // start Register Address
 
 	if (startAddr>49)  // The Register Address can not be more than 49 as we only have record of 50 Registers in total

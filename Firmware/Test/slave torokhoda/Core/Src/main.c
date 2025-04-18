@@ -28,8 +28,9 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-uint8_t RxData[256];
+uint8_t RxData[256], meow;
 uint8_t TxData[256];
+char key,show,t,last_key;
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -64,6 +65,7 @@ uint8_t TxData[256];
 /* USER CODE BEGIN PV */
 void SevenSegNumber(int num);
 char keypad_getkey(void);
+void beep(void);
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -76,24 +78,20 @@ void SystemClock_Config(void);
 /* USER CODE BEGIN 0 */
 uint8_t RxData[256];
 uint8_t TxData[256];
-int indx,meow = 0;
-
+int indx,flag,holding,shown,keyActive = 0;
 
 void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
 {
-
-	HAL_GPIO_TogglePin(GPIOB, LED_Pin);
-		meow =1;
 	HAL_UARTEx_ReceiveToIdle_IT(huart, RxData, 256); 
+	//key= keypad_getkey();
 	if (RxData[0] == SLAVE_ID)
 	{
-
 		switch (RxData[1]){
 		case 0x03:
 			readHoldingRegs();
 			break;
 		case 0x04:
-			readInputRegs();
+			readInputRegs(show);
 			break;
 		case 0x01:
 			readCoils();
@@ -118,6 +116,7 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
 			break;
 		}
 	}
+	
 
 	indx = Size;
 	HAL_UARTEx_ReceiveToIdle_IT(&uart_ch, RxData, 256);
@@ -159,11 +158,11 @@ int main(void)
 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_12, GPIO_PIN_SET);
 	HAL_Delay(500);
 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_12, GPIO_PIN_RESET);
+
 	
 	HAL_UARTEx_ReceiveToIdle_IT(&uart_ch, RxData, 256);
 		
 	//GPIOA->ODR &= 0x00;
-	char key;
 
   /* USER CODE END 2 */
 
@@ -171,11 +170,21 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-		if (meow) HAL_GPIO_WritePin(GPIOB, LED_Pin, GPIO_PIN_SET);
-//		key = keypad_getkey();  
-//		if (key != 0) 
-				SevenSegNumber(RxData[5]);
-
+		
+		key = keypad_getkey();
+		if (show == TxData[4])HAL_GPIO_WritePin(GPIOB, LED_Pin, GPIO_PIN_RESET);
+		else if (show != RxData[5]) HAL_GPIO_WritePin(GPIOB, LED_Pin, GPIO_PIN_SET);
+		else HAL_GPIO_WritePin(GPIOB, LED_Pin, GPIO_PIN_RESET);
+		
+		if (key != 0 )  
+			show=key; 
+		else if (key ==0 && RxData[5] !=0  && RxData[1] == 6 && meow ==1)
+		{
+			show = RxData[5];
+			beep();
+			meow=0;
+		}
+ SevenSegNumber(show);
 
 
     /* USER CODE END WHILE */
@@ -299,7 +308,16 @@ char keypad_getkey(void)
 	return 0; /* just to be safe */
 }
 
-
+void beep(void)
+{
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_12, GPIO_PIN_SET);
+	HAL_Delay(100);
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_12, GPIO_PIN_RESET);
+	HAL_Delay(100);
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_12, GPIO_PIN_SET);
+	HAL_Delay(100);
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_12, GPIO_PIN_RESET);
+}
 /* USER CODE END 4 */
 
 /**

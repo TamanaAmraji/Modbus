@@ -1,10 +1,7 @@
-slave\ torokhoda/s_modbus.o: \
-  E:\1_Github\Modbus-over-RS485-stm32\2_SLAVE\S_modbus.c \
-  E:\1_Github\Modbus-over-RS485-stm32\2_SLAVE\S_modbus.h \
-  ..\Core\Inc\modbus_crc.h \
+slave\ torokhoda/s_modbus.o: ..\Core\Src\S_modbus.c \
+  ..\Core\Inc\S_modbus.h ..\Core\Inc\modbus_crc.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  E:\1_Github\Modbus-over-RS485-stm32\2_SLAVE\S_modbusConf.h \
-  ..\Core\Inc\usart.h ..\Core\Inc\main.h \
+  ..\Core\Inc\S_modbusConf.h ..\Core\Inc\usart.h ..\Core\Inc\main.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h \
   ..\Core\Inc\stm32f1xx_hal_conf.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h \
@@ -31,4 +28,5 @@ slave\ torokhoda/s_modbus.o: \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  ..\Core\Inc\S_modbusConf.h

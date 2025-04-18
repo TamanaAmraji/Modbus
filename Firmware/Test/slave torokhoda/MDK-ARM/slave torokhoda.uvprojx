@@ -422,27 +422,12 @@
             <File>
               <FileName>S_modbus.c</FileName>
               <FileType>1</FileType>
-              <FilePath>E:\1_Github\Modbus-over-RS485-stm32\2_SLAVE\S_modbus.c</FilePath>
-            </File>
-            <File>
-              <FileName>S_modbus.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>E:\1_Github\Modbus-over-RS485-stm32\2_SLAVE\S_modbus.h</FilePath>
-            </File>
-            <File>
-              <FileName>S_modbusConf.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>E:\1_Github\Modbus-over-RS485-stm32\2_SLAVE\S_modbusConf.h</FilePath>
-            </File>
-            <File>
-              <FileName>modbus_crc.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>E:\1_Github\Modbus-over-RS485-stm32\modbus_crc\modbus_crc.h</FilePath>
+              <FilePath>..\Core\Src\S_modbus.c</FilePath>
             </File>
             <File>
               <FileName>modbus_crc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>E:\1_Github\Modbus-over-RS485-stm32\modbus_crc\modbus_crc.c</FilePath>
+              <FilePath>..\Core\Src\modbus_crc.c</FilePath>
             </File>
           </Files>
         </Group>
