@@ -52,7 +52,7 @@
 
 /* USER CODE BEGIN PV */
 uint32_t previousMillis, currentMillis;
-int i, sent,received ,input=0,show;
+int i, sent,received ,input=0,show, other_slave, other_add;
 uint8_t RxData[256];
 uint8_t TxData[256];
 	
@@ -169,7 +169,14 @@ int main(void)
   {
     /* USER CODE END WHILE */
 		
-		if (input) {			
+		if (other_slave)
+		{
+			writeSingeCoil(10,other_add,1); 
+			other_add++;
+			other_slave=0;
+		}
+		if (input) 
+		{			
 			HAL_GPIO_WritePin(GPIOA, GPIO_PIN_15,GPIO_PIN_SET);
 			HAL_Delay(300);
 			HAL_GPIO_WritePin(GPIOA, GPIO_PIN_15,GPIO_PIN_RESET);
@@ -239,7 +246,9 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_PIN)
 	{writeSingleHoldingRegister(5, 0, i); show=i; sent = i;}
 	else if (GPIO_PIN == GPIO_PIN_1 && (currentMillis - previousMillis > 100))
 	{readInputRegisters(5,0, 1); 
-	if (RxData[4] != 0) show = RxData[4]; i = show; received= show; input =1;}		
+	if (RxData[4] ==10) other_slave=1;
+	else  {show = RxData[4];	i = show; received= show; input =1;}
+	}		
 	previousMillis = currentMillis;
 	}
 

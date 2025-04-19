@@ -14,9 +14,9 @@ int Data[16];
 
 void sendData (uint8_t *data){
 
-HAL_GPIO_WritePin(GPIOA, GPIO_PIN_11, GPIO_PIN_SET);
+HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
 HAL_UART_Transmit(uart_ch, data, 11, 1000);
-HAL_GPIO_WritePin(GPIOA, GPIO_PIN_11 , GPIO_PIN_RESET);
+HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4 , GPIO_PIN_RESET);
 
 }
 
@@ -135,6 +135,7 @@ void writeSingleHoldingRegister(uint8_t slave_address, uint16_t address, uint32_
 
 void readInputRegisters(uint8_t slave_address, uint16_t startaddress, uint32_t n_registers){
 
+	
 	 HAL_UARTEx_ReceiveToIdle_IT(uart_ch, RxData, 10);
 	 //data: RxData[3] ... RxData[2+ n_registers*2]
 
@@ -153,5 +154,4 @@ void readInputRegisters(uint8_t slave_address, uint16_t startaddress, uint32_t n
 	  TxData[6] = crc&0xFF;   // CRC LOW
 	  TxData[7] = (crc>>8)&0xFF;  // CRC HIGH
 	  sendData(TxData);
-
 }
