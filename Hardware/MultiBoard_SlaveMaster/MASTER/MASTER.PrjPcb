@@ -38,6 +38,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=C:\Users\Tamana\Desktop\Tamana\New folder\MASTER.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ULNJBYHW
+
+[Document2]
 DocumentPath=Master_Micro.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -54,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HLQMQHIQ
 
-[Document2]
+[Document3]
 DocumentPath=MAX485.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZXQMXLPS
 
-[Document3]
+[Document4]
 DocumentPath=Supply 5V to 3V3- Ams1117.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -87,23 +104,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KHVQSMNC
-
-[Document4]
-DocumentPath=C:\Users\Tamana\Desktop\New folder\MASTER.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ULNJBYHW
 
 [Document5]
 DocumentPath=MASTER.SchDoc
@@ -157,23 +157,6 @@ GenerateClassCluster=0
 DocumentUniqueId=KLRNSAWZ
 
 [Document8]
-DocumentPath=C:\Users\Tamana\Desktop\Print\MASTER.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=EUXMALDG
-
-[Document9]
 DocumentPath=7segfootprint.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
