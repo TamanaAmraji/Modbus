@@ -5,7 +5,10 @@ interfacing modbus protocol over RS485 using stm32 (master and slave)
 :heavy_check_mark: Tested on : stm32f103vct6
 
 
-# HARDWARE
+# HARDWARE   
+Designd PCB in Altium Designer: 
+
+<img src="https://github.com/TamanaAmraji/Modbus/blob/main/Document/master.PNG" width="400" height="400"/> <img src="https://github.com/TamanaAmraji/Modbus/blob/main/Document/Master_2D.PNG " width="400" height="400"/>   
 
 Based on [MAX485 datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/MAX1487-MAX491.pdf/) (in *Documents* folder) The connections are as follows:  
 
