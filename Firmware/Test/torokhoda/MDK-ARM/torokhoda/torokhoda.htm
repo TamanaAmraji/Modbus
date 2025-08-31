@@ -3,7 +3,7 @@
 <title>Static Call Graph - [torokhoda\torokhoda.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image torokhoda\torokhoda.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6140002: Last Updated: Sat Apr 19 20:29:56 2025
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6140002: Last Updated: Wed May 14 02:49:46 2025
 <BR><P>
 <H3>Maximum Stack Usage =        152 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -465,7 +465,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[51]"></a>HAL_GPIO_EXTI_Callback</STRONG> (Thumb, 132 bytes, Stack size 16 bytes, main.o(.text.HAL_GPIO_EXTI_Callback))
+<P><STRONG><a name="[51]"></a>HAL_GPIO_EXTI_Callback</STRONG> (Thumb, 140 bytes, Stack size 16 bytes, main.o(.text.HAL_GPIO_EXTI_Callback))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = HAL_GPIO_EXTI_Callback &rArr; writeSingleHoldingRegister &rArr; sendData &rArr; HAL_UART_Transmit &rArr; UART_WaitOnFlagUntilTimeout
 </UL>
 <BR>[Calls]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeSingleHoldingRegister
@@ -598,7 +598,6 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Start_Receive_IT
 </UL>
 <BR>[Called By]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeSingleHoldingRegister
-<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeSingeCoil
 <LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;readInputRegisters
 <LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 <LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UARTEx_RxEventCallback
@@ -721,7 +720,7 @@ Global Symbols
 <P><STRONG><a name="[6]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_it.o(.text.SVC_Handler))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
 </UL>
-<P><STRONG><a name="[77]"></a>SevenSegNumber</STRONG> (Thumb, 132 bytes, Stack size 0 bytes, main.o(.text.SevenSegNumber))
+<P><STRONG><a name="[77]"></a>SevenSegNumber</STRONG> (Thumb, 140 bytes, Stack size 0 bytes, main.o(.text.SevenSegNumber))
 <BR><BR>[Called By]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
@@ -776,7 +775,7 @@ Global Symbols
 <LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;readInputRegisters
 </UL>
 
-<P><STRONG><a name="[45]"></a>main</STRONG> (Thumb, 140 bytes, Stack size 0 bytes, main.o(.text.main))
+<P><STRONG><a name="[45]"></a>main</STRONG> (Thumb, 164 bytes, Stack size 0 bytes, main.o(.text.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = main &rArr; SystemClock_Config &rArr; HAL_RCC_ClockConfig &rArr; HAL_InitTick &rArr; HAL_NVIC_SetPriority &rArr; __NVIC_SetPriority
 </UL>
 <BR>[Calls]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeSingeCoil
@@ -814,12 +813,11 @@ Global Symbols
 <LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;readInputRegisters
 </UL>
 
-<P><STRONG><a name="[76]"></a>writeSingeCoil</STRONG> (Thumb, 60 bytes, Stack size 24 bytes, m_modbus.o(.text.writeSingeCoil))
-<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = writeSingeCoil &rArr; sendData &rArr; HAL_UART_Transmit &rArr; UART_WaitOnFlagUntilTimeout
+<P><STRONG><a name="[76]"></a>writeSingeCoil</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, m_modbus.o(.text.writeSingeCoil))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = writeSingeCoil &rArr; sendData &rArr; HAL_UART_Transmit &rArr; UART_WaitOnFlagUntilTimeout
 </UL>
 <BR>[Calls]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sendData
 <LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;crc16
-<LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UARTEx_ReceiveToIdle_IT
 </UL>
 <BR>[Called By]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>

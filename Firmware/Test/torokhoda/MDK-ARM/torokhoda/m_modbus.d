@@ -1,6 +1,5 @@
-torokhoda/m_modbus.o: \
-  E:\1_Github\Modbus\Firmware\Test\torokhoda\Core\Src\M_modbus.c \
-  ..\Core\Inc\M_modbus.h ..\Core\Inc\modbus_crc.h \
+torokhoda/m_modbus.o: ..\Core\Src\M_modbus.c ..\Core\Inc\M_modbus.h \
+  ..\Core\Inc\modbus_crc.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
   ..\Core\Inc\M_modbusConf.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h ..\Core\Inc\usart.h \

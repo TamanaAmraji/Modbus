@@ -100,6 +100,10 @@ void SevenSegNumber(int num){
 		GPIOB->ODR = ~(a|b|c|d|f|g); 
 		GPIOA->ODR &= ~0x100;
 		break;
+		case 10 :
+		GPIOB->ODR = ~(g); 
+		GPIOA->ODR |= 0x100;
+		break;
 	}
 		
 }
@@ -171,9 +175,10 @@ int main(void)
 		
 		if (other_slave)
 		{
-			writeSingeCoil(10,other_add,1); 
-			other_add++;
-			other_slave=0;
+			while (other_slave) {
+				writeSingeCoil(10,0,1);
+				SevenSegNumber(10);
+			}
 		}
 		if (input) 
 		{			
@@ -235,6 +240,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_PIN)
 
 	if (GPIO_PIN == GPIO_PIN_9 && (currentMillis - previousMillis > 200))
 	{
+		other_slave=0;
 		input=0;
 		if ( i < 9)
 			i = i+1;
@@ -243,10 +249,10 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_PIN)
 		show = i;
 	}	
 	else if (GPIO_PIN == GPIO_PIN_0 && (currentMillis - previousMillis > 200))
-	{writeSingleHoldingRegister(5, 0, i); show=i; sent = i;}
+	{writeSingleHoldingRegister(5, 0, i); show=i; sent = i;	other_slave=0;}
 	else if (GPIO_PIN == GPIO_PIN_1 && (currentMillis - previousMillis > 100))
 	{readInputRegisters(5,0, 1); 
-	if (RxData[4] ==10) other_slave=1;
+	if (RxData[4] ==10)  		other_slave=1;
 	else  {show = RxData[4];	i = show; received= show; input =1;}
 	}		
 	previousMillis = currentMillis;

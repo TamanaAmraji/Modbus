@@ -48,9 +48,7 @@ HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4 , GPIO_PIN_RESET);
 
 void writeSingeCoil(uint8_t slave_address, uint8_t coil_addr,bool data ){
 
-	 HAL_UARTEx_ReceiveToIdle_IT(uart_ch, RxData, 10);
-
-	  TxData[0] = slave_address;  // slave address
+	  TxData[0] = 10;  // slave address
 	  TxData[1] = 0x05;  // Force single coil (Function code)
 
 	  TxData[2] = (coil_addr - (coil_addr%256))/256; 	// coil address high
@@ -136,7 +134,7 @@ void writeSingleHoldingRegister(uint8_t slave_address, uint16_t address, uint32_
 void readInputRegisters(uint8_t slave_address, uint16_t startaddress, uint32_t n_registers){
 
 	
-	 HAL_UARTEx_ReceiveToIdle_IT(uart_ch, RxData, 10);
+	 HAL_UARTEx_ReceiveToIdle_IT(uart_ch, RxData, 11);
 	 //data: RxData[3] ... RxData[2+ n_registers*2]
 
 	  TxData[0] = slave_address;	// slave address

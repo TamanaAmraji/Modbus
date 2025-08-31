@@ -28,6 +28,7 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
+uint32_t previousMillis, currentMillis;
 uint8_t RxData[256], meow;
 uint8_t TxData[256];
 char key,show,t,last_key;
@@ -83,7 +84,6 @@ int indx,flag,holding,shown,keyActive = 0;
 void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
 {
 	HAL_UARTEx_ReceiveToIdle_IT(huart, RxData, 256); 
-	//key= keypad_getkey();
 	if (RxData[0] == SLAVE_ID)
 	{
 		switch (RxData[1]){
@@ -184,7 +184,7 @@ int main(void)
 			beep();
 			meow=0;
 		}
- SevenSegNumber(show);
+	SevenSegNumber(show);
 
 
     /* USER CODE END WHILE */
@@ -231,6 +231,19 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_PIN)
+{
+	currentMillis = HAL_GetTick();
+
+	if (GPIO_PIN == GPIO_PIN_13 && (currentMillis - previousMillis > 200))
+	{
+		show = 10;
+		readInputRegs(show);
+		
+	}		
+	previousMillis = currentMillis;
+}
+
 void SevenSegNumber(int num){
     GPIOA->ODR &= ~(d | e | g);
     GPIOB->ODR &= ~(a | b | c | f);
@@ -275,10 +288,11 @@ void SevenSegNumber(int num){
             GPIOA->ODR |= (d | g);
             GPIOB->ODR |= (a | b | c | f);
             break;
+				case 10:
+            GPIOA->ODR |= (g);
+            break;
     }
-}
-
-		
+}		
 
 
 char keypad_getkey(void) 
